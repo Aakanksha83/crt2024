@@ -1,0 +1,26 @@
+global variables
+
+#include <stdio.h>
+int a=15;
+void show(){
+    
+    printf("show a=%d\n",a);
+}
+void display(){
+
+    printf("display a=%d\n",a);
+}
+int main() {
+     show();
+     display();
+    printf("Main %d",a);
+    
+    return 0;
+}
+
+
+output:
+
+show a=15
+display a=15
+Main 15
