@@ -1,0 +1,18 @@
+recursion:factorial
+#include <stdio.h>
+int mul(int n){
+    if(n==0)
+    return 1;
+    else
+      return n*mul(n-1);
+    
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    int k=mul(n);
+    printf("%d",k);
+}
+output:
+4
+24
