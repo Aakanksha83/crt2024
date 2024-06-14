@@ -1,0 +1,15 @@
+pointer
+#include <stdio.h>
+
+int main() {
+    int a=34;
+    printf("value of a=%d",a);
+ printf("\n address of a=%u",&a);
+  printf("\n value of a=%d",*(&a));
+    return 0;
+}
+
+output:
+value of a=34
+ address of a=1709728844
+ value of a=34
