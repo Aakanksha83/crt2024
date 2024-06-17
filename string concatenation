@@ -1,0 +1,22 @@
+string concatenation
+
+#include <stdio.h>
+#include<string.h>
+
+int main() {
+    // Write C code here
+    char str1[50],str2[50];
+    scanf("%s",str1);
+    scanf("%s",str2);
+    strcat(str1," ");
+    strcat(str1,str2);
+    
+    printf("%s",str1);
+
+    return 0;
+}
+
+output:
+ram
+sita
+ram sita
