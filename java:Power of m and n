@@ -1,0 +1,23 @@
+Power of m and n
+import java.util.*;
+class Power
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+int m,n;
+m=s.nextInt();
+n=s.nextInt();
+
+double b=Math.pow(m,n);
+System.out.println(b);
+}
+}
+
+o/p:
+2 3
+  8.0
+
+
+  3  4
+81.0
