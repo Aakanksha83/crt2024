@@ -1,0 +1,17 @@
+class Addition
+{
+public static void main(String args[])
+{
+int a,b,c;
+a=75;
+b=15;
+c=a+b;
+System.out.println("Value of a="+a+" Value of b="+b);
+System.out.println("Sum="+c);
+}
+
+}
+
+output:
+Value of a=75 Value of b=15
+Sum=90
