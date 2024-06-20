@@ -1,0 +1,21 @@
+Squareroot of a number
+import java.util.*;
+class Squareroot
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+int a;
+a=s.nextInt();
+doubless b=Math.sqrt(a);
+System.out.println(b);
+}
+}
+
+output:
+64
+8.0
+
+
+66
+8.12403840463596
