@@ -1,0 +1,43 @@
+import java.util.*;
+class Linear{
+static int linearsearch(int a[],int n,int key){
+for(int i=0;i<n;i++){
+if(key==a[i]){
+return i;
+}
+}
+return -1;
+}
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n;
+        n=s.nextInt();
+        int a[]=new int[n];
+        for(int i=0;i<n;i++){
+            a[i]=s.nextInt();
+            
+        }
+      int key=s.nextInt();
+int r=linearsearch(a,n,key);
+if(r==-1)
+        {
+         System.out.println("Element not found");   
+        
+    }
+else{
+System.out.println("Element found "+r);
+
+}
+}
+}
+
+
+
+5
+23
+9
+6
+9
+54
+43
+Element not found
